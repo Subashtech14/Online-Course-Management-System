@@ -17,21 +17,21 @@ list=
     },
     {
       "Imageurl":"../../assets/python.png",
-      "Title":"Java Crash course",
+      "Title":"Python Crash course",
       "Author":"Subash",
       "Description":"Learn the Python fully ",
       "Language":"Python"
     },
     {
       "Imageurl":"../../assets/python1.png",
-      "Title":"Java Crash course",
+      "Title":"Python Master course",
       "Author":"Subash",
       "Description":"Learn the master python fully ",
       "Language":"Python"
     },
     {
       "Imageurl":"../../assets/spring.jfif",
-      "Title":"Java Crash course",
+      "Title":"Spring Crash course",
       "Author":"Subash",
       "Description":"Learn the java  spring fully ",
       "Language":"Java"
