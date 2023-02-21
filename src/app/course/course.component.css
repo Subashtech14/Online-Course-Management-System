@@ -1,0 +1,76 @@
+*{
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.navbar
+{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  width: 100vw;
+
+}
+p{
+  font-size: 50px;
+  display: inline;
+  cursor: pointer;
+}
+
+.navbar ol{
+  padding-left: 10px;
+position: relative;
+top: -10px;
+left: 40px;
+list-style-type: none;
+display: inline-flex;
+gap: 10px;
+}
+.navbar ol li a{
+  text-decoration: none;
+  color: white;
+}
+input{
+position: relative;
+top: -10px;
+left:155px;
+border: 0;
+border-radius: 20px;
+height: 25px;
+width: 500px;
+}
+.search {
+  display: inline;
+}
+
+.gg-search{
+  display: inline-block;
+  position: relative;
+  top: -10px;
+  left: 200px;
+  cursor: pointer;
+}
+.search input{
+  opacity: 0;
+}
+.gg-search:hover{
+
+  scale:1.5;
+}
+.log{
+  display: inline;
+  position: absolute;
+  left: 1050px;
+  top: 30px;
+}
+.log ol li a:hover{
+ font-size: larger;
+}
+.gg-shopping-cart
+{
+ display: inline-block;
+ position: absolute;
+ left: 1050px;
+ top: 20px;
+ cursor: pointer;
+}
+.gg-shopping-cart:hover{
+  scale: 1.5;
+}
