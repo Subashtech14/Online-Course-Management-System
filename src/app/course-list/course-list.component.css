@@ -1,0 +1,24 @@
+.container{
+
+  display: inline-block;
+  margin: 10px;
+  margin-top: 20px;
+  background: linear-gradient(#000000, #7d7b7b);
+  width:300px ;
+  height:300px ;
+  border-radius: 20px;
+  text-align: left;
+  color:rgb(0, 0, 0);
+
+}
+p{
+  padding-left: 10px;
+}
+.cons{
+  display: block;
+}
+.container:hover{
+  cursor: pointer;
+  scale: 1.1;
+}
+

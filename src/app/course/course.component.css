@@ -5,7 +5,7 @@
 {
   background-color: black;
   color: rgb(255, 255, 255);
-  width: 100vw;
+  width: 100%;
 
 }
 p{
@@ -21,7 +21,7 @@ top: -10px;
 left: 40px;
 list-style-type: none;
 display: inline-flex;
-gap: 10px;
+gap: 20px;
 }
 .navbar ol li a{
   text-decoration: none;
@@ -35,6 +35,8 @@ border: 0;
 border-radius: 20px;
 height: 25px;
 width: 500px;
+padding: 10px;
+font-family: Arial, sans-serif;
 }
 .search {
   display: inline;
