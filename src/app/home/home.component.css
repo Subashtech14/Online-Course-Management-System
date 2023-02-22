@@ -1,0 +1,62 @@
+.title{
+  text-align:center;
+  color: white;
+}
+h1{
+  color: white;
+}
+.p-container , .p1-container ,.a-container
+{
+  display: inline-block;
+  background-color: rgb(189, 177, 92);
+  margin: 20px;
+  border-radius: 20px;
+  padding: 7px;
+  /* padding-left: 7px;
+  padding-right: 7px; */
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.p1-container:hover{
+
+  cursor: pointer;
+  scale: 1.1;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.a-container:hover{
+cursor: pointer;
+scale: 1.01;
+margin-right: 10px;
+overflow: hidden;
+animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.p-container:hover{
+  cursor: pointer;
+  scale: 1.1;
+  /* animation: example 5s ease-in-out 2s linear alternate; */
+  animation-name: example;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  /* animation-iteration-count: infinite; */
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+
+
+}
+
+@keyframes example {
+  0% {background-color: rgb(255, 242, 242);}
+  50%{background-color: rgba(0, 255, 255, 0.419);}
+  100% {background-color: rgba(0, 0, 0, 0);}
+}

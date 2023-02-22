@@ -21,4 +21,10 @@ p{
   cursor: pointer;
   scale: 1.1;
 }
+img{
+  padding-top: 6px;
+display: block; /* Ensure the image is treated as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+  text-align: center; /* Center the image vertically */
+}
 

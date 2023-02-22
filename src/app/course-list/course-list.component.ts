@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
+
 
 @Component({
   selector: 'app-course-list',
@@ -7,6 +8,11 @@ import { Component } from '@angular/core';
 })
 
 export class CourseListComponent {
+  constructor(private renderer: Renderer2) { }
+  ngOnInit() {
+    this.renderer.setStyle(document.body, 'background-color', 'lightgray');
+  }
+
 list=
 [{
       "Imageurl":"../../assets/java.jfif",

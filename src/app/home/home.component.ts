@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-
+  constructor(private renderer: Renderer2) { }
+  ngOnInit() {
+    this.renderer.setStyle(document.body, 'background', 'url("../../assets/wall.jpg") center center fixed');
+  }
 }
